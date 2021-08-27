@@ -100,6 +100,10 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		width: 186px;
 		height: 186px;
 	}
+	.pg-home img:hover{
+		border: 2px solid #CCC ;
+		box-sizing: border-box;
+	}
 	footer{
 		display: flex;
 		justify-content: center;
@@ -111,6 +115,10 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		padding: 5px 15px;
 		border: white solid 2px;
 	
+	}
+	footer button:hover{
+		border: 4px solid #CCC ;
+		box-sizing: border-box;
 	}
 
 	@media screen and (min-width: 858px){
